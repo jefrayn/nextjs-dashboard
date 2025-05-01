@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "typeRoots": ["./types", "./node_modules/@types"]
+    "typeRoots": ["./types", "./node_modules/@types"],
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -31,7 +31,7 @@
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
     "scripts/seed.js",
-    "types",
+    "types"
   ],
   "exclude": ["node_modules"]
 }
